@@ -1,0 +1,43 @@
+body {
+
+    background-color: grey;
+}
+
+ .blok1{
+
+    margin: 0 auto;
+
+    border-width: 60px;
+    border-style: solid;
+    margin-top: 20px;
+    border-image: url(pope.png) 280 stretch;
+    height: 80%;
+    width: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    transition: widths 2s;
+    animation: blok1 2s infinite linear;
+   
+
+}
+
+@keyframes blok1{
+
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(359deg);
+}   
+
+
+
+}
+
+
+
+div:hover {
+    width: 300px;
+  }
